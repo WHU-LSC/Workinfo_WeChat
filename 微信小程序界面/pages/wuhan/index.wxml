@@ -1,0 +1,50 @@
+<Tabs tabs="{{tabs}}"  bindtabsItemChange="handleTabsItemChange">
+    <block wx:if="{{tabs[0].isActive}}">
+        <view class="first_tab">
+            <navigator class="shixi_info"
+            open-type="navigate"
+            wx:for="{{ShixiList_wuhan.message}}"
+            url="/pages/detail/index?url={{item.url}}"
+            wx:key="url"
+            >
+              <!-- 商品介绍 -->
+              <view class="today"
+              wx:if="{{item.upgrade_date===date}}"
+              >
+                <view class="shixi_base">实习地点：{{item.base}}</view>
+                <view class="shixi_company">公司名称：{{item.company}}</view>
+                <view class="shixi_job">实习职位：{{item.job}}</view>
+                <view class="shixi_detail">
+                  <!-- <web-view class="shixi_source" src="https://www.baidu.com/">详情：{{item.source}}</web-view> -->
+                  <view class="shixi_source">来源：{{item.source}}</view>
+                  <view class="shixi_upgrade_date">更新时间：{{item.upgrade_date}}</view>
+                </view>
+              </view>
+            </navigator>
+        </view>
+    </block>
+    <block wx:elif="{{tabs[1].isActive}}">
+        <view class="second_tab">
+            <navigator class="shixi_info"
+            open-type="navigate"
+            wx:for="{{ShixiList_wuhan.message}}"
+            url="/pages/detail/index?url={{item.url}}"
+            wx:key="company"
+            >
+              <!-- 商品介绍 -->
+              <view class="today"
+              wx:if="{{item.upgrade_date!==date}}"
+              >
+                <view class="shixi_base">实习地点：{{item.base}}</view>
+                <view class="shixi_company">公司名称：{{item.company}}</view>
+                <view class="shixi_job">实习职位：{{item.job}}</view>
+                <view class="shixi_detail">
+                  <!-- <web-view class="shixi_source" src="https://www.baidu.com/">详情：{{item.source}}</web-view> -->
+                  <view class="shixi_source">链接：{{item.source}}</view>
+                  <view class="shixi_upgrade_date">更新时间：{{item.upgrade_date}}</view>
+                </view>
+              </view>
+            </navigator>
+        </view>
+    </block>
+</Tabs>

@@ -1,0 +1,7 @@
+<!-- <view>详情网页网址：{{contents}} </view>
+
+<view  bindtap='copyText' data-text="{{contents}}">复制</view> -->
+
+<view class="test">详情网页网址如下</view>
+<view class="source">{{contents}}</view>
+<button bindtap='copyText' data-text="{{contents}}">点击复制</button>

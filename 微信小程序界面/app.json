@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/wuhan/index",  
+    "pages/xuanjiang/index",
+    "pages/detail/index" 
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "武大就业信息汇总",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "全国实习信息",
+        "iconPath": "/icon/_quanguo.png",
+        "selectedIconPath": "/icon/quanguo.png"
+      },
+      {
+        "pagePath": "pages/wuhan/index",
+        "text": "武汉实习信息",
+        "iconPath": "/icon/_wuhan.png",
+        "selectedIconPath": "/icon/wuhan.png"
+      },
+      {
+        "pagePath": "pages/xuanjiang/index",
+        "text": "宣讲会",
+        "iconPath": "/icon/_xuanjiang.png",
+        "selectedIconPath": "/icon/xuanjiang.png"
+      }
+    ]
+  }
+}

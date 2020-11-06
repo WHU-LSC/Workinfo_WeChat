@@ -1,0 +1,86 @@
+.first_tab .shixi_info .today {
+  border-bottom: 1px solid #ccc;
+  padding: 20rpx;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 1.8em;
+}
+.first_tab .shixi_info .today .shixi_base {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.first_tab .shixi_info .today .shixi_company {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.first_tab .shixi_info .today .shixi_job {
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.first_tab .shixi_info .today .shixi_detail {
+  display: flex;
+}
+.first_tab .shixi_info .today .shixi_detail .shixi_source {
+  flex: 3;
+  font-size: 30rpx;
+}
+.first_tab .shixi_info .today .shixi_detail .shixi_upgrade_date {
+  flex: 4;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second_tab .shixi_info .today {
+  border-bottom: 1px solid #ccc;
+  padding: 20rpx;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 1.8em;
+}
+.second_tab .shixi_info .today .shixi_base {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.second_tab .shixi_info .today .shixi_company {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.second_tab .shixi_info .today .shixi_job {
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.second_tab .shixi_info .today .shixi_detail {
+  display: flex;
+}
+.second_tab .shixi_info .today .shixi_detail .shixi_source {
+  flex: 3;
+  font-size: 30rpx;
+}
+.second_tab .shixi_info .today .shixi_detail .shixi_upgrade_date {
+  flex: 4;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

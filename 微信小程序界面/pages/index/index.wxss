@@ -1,0 +1,102 @@
+.first_tab .shixi_info .today {
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  border-bottom: 3px solid #ccc;
+  line-height: 2em;
+}
+.first_tab .shixi_info .today .shixi_base {
+  padding-left: 40rpx;
+  white-space: nowrap;
+}
+.first_tab .shixi_info .today .shixi_base .base_info {
+  padding-left: 10rpx;
+  padding-right: 12rpx;
+  padding-top: 5rpx;
+  padding-bottom: 5rpx;
+  color: #696969;
+  font-size: 30rpx;
+  white-space: nowrap;
+  border-radius: 15rpx;
+  background-color: #E0FFFF;
+}
+.first_tab .shixi_info .today .shixi_company {
+  display: -webkit-box;
+  padding-left: 40rpx;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: 30rpx;
+  color: #696969;
+}
+.first_tab .shixi_info .today .shixi_job {
+  padding-left: 40rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+  line-height: 2.5em;
+}
+.first_tab .shixi_info .today .shixi_detail {
+  display: flex;
+  padding-left: 40rpx;
+}
+.first_tab .shixi_info .today .shixi_detail .shixi_source {
+  flex: 3;
+  font-size: 25rpx;
+}
+.first_tab .shixi_info .today .shixi_detail .shixi_upgrade_date {
+  flex: 4;
+  font-size: 25rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second_tab .shixi_info .today {
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  border-bottom: 3px solid #ccc;
+  line-height: 2em;
+}
+.second_tab .shixi_info .today .shixi_base {
+  padding-left: 40rpx;
+  white-space: nowrap;
+}
+.second_tab .shixi_info .today .shixi_base .base_info {
+  padding-left: 10rpx;
+  padding-right: 12rpx;
+  padding-top: 5rpx;
+  padding-bottom: 5rpx;
+  color: #696969;
+  font-size: 30rpx;
+  white-space: nowrap;
+  border-radius: 15rpx;
+  background-color: #E0FFFF;
+}
+.second_tab .shixi_info .today .shixi_company {
+  display: -webkit-box;
+  padding-left: 40rpx;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: 30rpx;
+  color: #696969;
+}
+.second_tab .shixi_info .today .shixi_job {
+  padding-left: 40rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+  line-height: 2.5em;
+}
+.second_tab .shixi_info .today .shixi_detail {
+  display: flex;
+  padding-left: 40rpx;
+}
+.second_tab .shixi_info .today .shixi_detail .shixi_source {
+  flex: 3;
+  font-size: 25rpx;
+}
+.second_tab .shixi_info .today .shixi_detail .shixi_upgrade_date {
+  flex: 4;
+  font-size: 25rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
